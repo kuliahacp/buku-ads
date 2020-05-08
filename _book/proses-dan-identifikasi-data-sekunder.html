@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Proses dan Identifikasi Data Sekunder | Analisis Data Sekunder Menggunakan R</title>
+  <meta name="description" content="Buku ini adalah buku panduan melakukan analisis data sekunder menggunakan R" />
+  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Proses dan Identifikasi Data Sekunder | Analisis Data Sekunder Menggunakan R" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Buku ini adalah buku panduan melakukan analisis data sekunder menggunakan R" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Proses dan Identifikasi Data Sekunder | Analisis Data Sekunder Menggunakan R" />
+  
+  <meta name="twitter:description" content="Buku ini adalah buku panduan melakukan analisis data sekunder menggunakan R" />
+  
+
+<meta name="author" content="Adi Cilik Pierewan" />
+
+
+<meta name="date" content="2020-05-08" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="mengapa-data-sekunder.html"/>
+<link rel="next" href="memahami-codebook.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/elevate-section-attrs-2.0/elevate-section-attrs.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Pengantar</a></li>
+<li class="chapter" data-level="2" data-path="lanskap-penelitian-data-sekunder.html"><a href="lanskap-penelitian-data-sekunder.html"><i class="fa fa-check"></i><b>2</b> Lanskap penelitian data sekunder</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="lanskap-penelitian-data-sekunder.html"><a href="lanskap-penelitian-data-sekunder.html#pengantar-1"><i class="fa fa-check"></i><b>2.1</b> Pengantar</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="mengapa-data-sekunder.html"><a href="mengapa-data-sekunder.html"><i class="fa fa-check"></i><b>3</b> Mengapa Data Sekunder</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="mengapa-data-sekunder.html"><a href="mengapa-data-sekunder.html#keuntungan-data-sekunder"><i class="fa fa-check"></i><b>3.1</b> Keuntungan data sekunder</a></li>
+<li class="chapter" data-level="3.2" data-path="mengapa-data-sekunder.html"><a href="mengapa-data-sekunder.html#penerapan-data-sekunder-pada-ilmu-sosial"><i class="fa fa-check"></i><b>3.2</b> Penerapan data sekunder pada ilmu sosial</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="proses-dan-identifikasi-data-sekunder.html"><a href="proses-dan-identifikasi-data-sekunder.html"><i class="fa fa-check"></i><b>4</b> Proses dan Identifikasi Data Sekunder</a></li>
+<li class="chapter" data-level="5" data-path="memahami-codebook.html"><a href="memahami-codebook.html"><i class="fa fa-check"></i><b>5</b> Memahami codebook</a></li>
+<li class="chapter" data-level="6" data-path="pertanyaan-penelitian.html"><a href="pertanyaan-penelitian.html"><i class="fa fa-check"></i><b>6</b> Pertanyaan Penelitian</a></li>
+<li class="chapter" data-level="7" data-path="memahami-r.html"><a href="memahami-r.html"><i class="fa fa-check"></i><b>7</b> Memahami R</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="memahami-r.html"><a href="memahami-r.html#mengapa-r"><i class="fa fa-check"></i><b>7.1</b> Mengapa R</a>
+<ul>
+<li class="chapter" data-level="7.1.1" data-path="memahami-r.html"><a href="memahami-r.html#manajemen-data"><i class="fa fa-check"></i><b>7.1.1</b> Manajemen Data</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="manajemen-data-1.html"><a href="manajemen-data-1.html"><i class="fa fa-check"></i><b>8</b> Manajemen Data</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="manajemen-data-1.html"><a href="manajemen-data-1.html#menggunakan-r"><i class="fa fa-check"></i><b>8.1</b> Menggunakan R</a></li>
+<li class="chapter" data-level="8.2" data-path="manajemen-data-1.html"><a href="manajemen-data-1.html#tidy-r"><i class="fa fa-check"></i><b>8.2</b> tidy R</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="manajemen-data-1.html"><a href="manajemen-data-1.html#filter"><i class="fa fa-check"></i><b>8.2.1</b> filter</a></li>
+<li class="chapter" data-level="8.2.2" data-path="manajemen-data-1.html"><a href="manajemen-data-1.html#select"><i class="fa fa-check"></i><b>8.2.2</b> select</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="visualisasi-data.html"><a href="visualisasi-data.html"><i class="fa fa-check"></i><b>9</b> Visualisasi Data</a></li>
+<li class="chapter" data-level="10" data-path="uji-perbedaan.html"><a href="uji-perbedaan.html"><i class="fa fa-check"></i><b>10</b> Uji Perbedaan</a></li>
+<li class="chapter" data-level="11" data-path="korelasi-dan-regresi.html"><a href="korelasi-dan-regresi.html"><i class="fa fa-check"></i><b>11</b> Korelasi dan Regresi</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Analisis Data Sekunder Menggunakan R</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="proses-dan-identifikasi-data-sekunder" class="section level1" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Proses dan Identifikasi Data Sekunder</h1>
+<p>##Proses</p>
+<p>Proses melakukan penelitian data sekunder dapat dilakukan seperti penelitian pada umumnya, namun salah satu proses yang dapat diubah adalah tentang bagaimana mengidemtifikasi data yang sesuai dengan penelitian kita. Pada penelitian data sekunder, kita dapat melakukan penelitian dengan dimulai mencari data yang ada dalam riset tersebut, atau bahkan mencari jurnal yang menggunakan data tersebut. Kita dapat menemukan penelitian, sebagai contoh, pada laman web berikut ini: . Laman tersebut memberikan contoh tentang bagaimana penelitian data sekunder dilakukan dengan menggunakan data IFLS. Dengan mencermati penelitian tersebut, kita dapat mempelajari bagaimana data sekunder ditemukan, dianalisis dan ditulis sebagai makalah ilmiah yang diterbitkan dalam jurnal bereputasi.</p>
+<p>Proses penelitian dapat dilakukan dengan proses berikut ini Boslaugh (2007) :</p>
+<ol style="list-style-type: decimal">
+<li><p>Mendefinisikan pertanyaan penelitian. Seperti proses penelitian standar, pertanyaan penelitian data sekunder perlu dimulai dengan pertanyaan penelitian yang jelas.</p></li>
+<li><p>Menentukan target responden. Target responden perlu dijelaskan sejak awal.</p></li>
+<li><p>Menentukan variabel lain yang akan dimasukkan dalam analisis.</p></li>
+<li><p>Menentukan jenis data yang paling cocok dengan pertanyaan penelitian.</p></li>
+<li><p>Membuat daftar data yang mencantumkan informasi yang terkait dengan pertanyaan penelitian.</p></li>
+<li><p>Uji variabel yang kita gunakan.</p></li>
+</ol>
+<p>Penulis ingin berbagi pengalaman melakukan penelitian sekunder mulai dari awal sampai pada akhir pengiriman naskah publikasi.</p>
+<p>Menentukan topik penelitian</p>
+<p>Topik penelitian harus ditentukan sejak awal agar penelitian kita lebih sejalan dengan apa yang kita inginkan. Menentukan topik merupakan salah satu tahapan paling menantang bagi ilmuwan sosial terutama bagi pemula, karena banyak sekali topik yang menarik namun demikian peneliti pemula merasakan kesulitan untuk melakukan fokus pada satu topik secara intens.</p>
+<p>Melakukan pencarian pada jurnal yang terkait</p>
+<p>Langkah selanjtnya adalah mencari jurnal yang terkait dengan topik kita. Pencarian jurnal sekarang dapat dilakukan dengan mudah. Banyak website yang bisa menyediakan jurnal secara gratis yang langsung disediakan oleh penulisnya, misalnya pada laman ini: . Pada laman ini kita bisa melihat paper yang ditulis oleh penulis yang memiliki minat sama dengan kita. Pendek kata, laman ini merupakan media jaringan sosial akademik.</p>
+<p>Membaca dengan seksama jurnal yang terpilih</p>
+<p>Langkah selanjutnya adalah membaca artikel dengan seksama dan detail, sehingga kita bisa mengetahui alur logika yang digunakan oleh penulis tersebut. Proses membaca ini dilakukan dengan mengkritisi paper yang sedang kita baca dengan cara menemukan kelemahan argumen yang diberikan dalam paper tersebut.</p>
+<p>Melakukan replikasi penelitian</p>
+<p>Replikasi penelitian dilakukan untuk mengetahui lebih dalam bagaiaman penelitian terdahulu dilakukan dan pada waktu yang sama memberikan rasa pencapaian dari peneliti yang bahwa yang bersangkutan bisa menyelesaikan penelitian serupa. Penulis melakukan replikasi penelitian yang dilakukan oleh Paxton (2007) mengenai association membership and trust dan saat itu penulis meminta data secara langsung dari Paxton, dan Paxton juga memberi data tersebut. Proses selanjutnya adalah melakukan analisis untuk data yang tersedia dan hasilnya hampir sama apa yang dilakukan Paxton.</p>
+<p>Mencari data set yang relevan</p>
+<p>Data set yang relevan sangat perlu dilakukan sesuai dengan topik kita dengan membaca kuesioner dan mencermati codebook yang ada, sehingga peneliti dapat mengidentifikasi masing-masing item atau pertanyaan yang relevan. Saat itu, penulis mencermati dua data set yaitu European Social Survey dan European Values Study. Kedua data set tersebut menyediakan informasi mengani nilai dan perubahan sosial yang terjadi di Eropa. Setelah mencermati kedua dat set tersebut, akhirnya dipilih salah satu dat set yaitu EVS, karena yang menyediakan pertanyaan sesuai dengan topik yang sudah dipilih.</p>
+<p>Melakukan penelitian dengan topik terpilih</p>
+<p>Setelah menemukan topik, langkah selanjutnya adalah melakukan penelitian formal dengan data yang sudah kita ambil. Penelitian ini dilakukan seperti penelitian dengan data primer yaitu dengan menentukan pertanyaan penelitian yang akan dijawab dalam penelitian dan melakukan pengujian menggunakan analisis data yang relevan untuk menjawab pertanyaan penelitian.</p>
+<p>Mencari jurnal yang terkait dengan strategi penelitian.</p>
+<p>Mencari jurnal merupakan salah satu langkah paling menentukan dalam penelitian data sekunder. Fungsi pemilihan jurnal ini adalah: memberi tuntunan pada proses penelitian yang akan dilakukan.</p>
+<p>Melakukan analisis data</p>
+<p>Memilih perangkat lunak</p>
+<p>Proses pemilihan lunak sangat disesuaikan dengan kebutuhan penelitian dan penjelasan lebih detail ada pada Bab 5. Pemilihan ini didasarkan pada ketersediaan sumber daya yang ada, termasuk dana yang tersedia. Perangkat lunak saat tersedia secara luas dan mudah untuk diperoleh, namun diperlukan waktu yang cukup untuk menguasai perangkat yang tersedia tersebut.</p>
+<p>Mencari jurnal yang relevan dengan teknik analisis yang sudah dipilih</p>
+<p>Pada saat data set dan jurnal teoretis sudah ditemukan, maka selanjutnya mencari jurnal yang menggunakan teknik analisis hyang sesuai dengan penelitian kita. Saat itu, peneliti mencari jurnal yang menggunakan penelitian multilevel model untuk menjawab pertanyaan tentang apakah variasi di level yang lebih tinggi dapat menjelaskan fenomena pada level-1.</p>
+<p>Mempublikasikan pada jurnal relevan</p>
+<p>Saat yang paling menggembirakan adalah ketika penelitian kita sudah jadi dan siap untuk dipublikasikan pada jurnal yang relevan. Pada saat itu, saya memilih dua jurnal untuk dipublikasikan yaitu Social Indicators Reserach dan Jornal of Happiness Studies. Artikel saya ditolak di JOHS, akhirnya saya kirim lagi ke SIR. Akhirnya SIR menerima artikel saya dan siap dipublikasikan. Menerima surat penerimaan di jurnal yang kita merupakan pengalaman yang yang tidak terlupakan, karena saat itulah saya merasa karir akademik saya dimulai secara internasional.</p>
+<p>##Sumber data sekunder</p>
+<p>Data sekunder dapat diperoleh baik dari sumber di Indonesia dan luar negeri. Di Indonesia kita dapat menemukan data sekunder dari BPS dan survey yang dilakukan oleh lembaga survey atau lembaga penelitian terkemuka di Indonesia. Salah satu survey yang menyediakan banyak pertanyaan dan wahana untuk melakukan analisis data sekunder adalah Survey Aspek Kehidupan Rumah Tangga Indonesia (SAKERTI) atau dikenal secara internasional sebagai Indonesia Family Life Survey (IFLS) .</p>
+<p>###Sumber data internasional</p>
+<p>Sumber data internasional bisa diperoleh dari PBB, Bank Dunia, lembaga survey internasional , seperti Gallup Internasional, World Values Survey. Di UK, dapat penyedia layanan data dapat ditemukan pada web ini: UKDS . Di Jerman, layanan data di tingkat Eropa dan dunia dapat ditemukan pada link berikut: GESIS . Sedangan di Amerika kita dapat menemukannya di ICPSR University of Michigan . Ketiga pengelola data internasional tersebut, dapat memberikan layanan data, dan analisis data yang kompleks untuk kepentingan pembuatan kebijakan publik. Bahkan pusat peneydia data tersebut membrikan kesempatan untuk melakukan penelitian di institusi mereka dan bisa mengakses data yang dimiliki dan perangkat lunak yang dibutuhkan untuk menganalisis.</p>
+<p>###Sumber data regional</p>
+<p>Contoh sumber data regional EVS, EuroBarometer, AsiaBarometer. Data tersebut tersimpan di arsip data antara lain pada link berikut ini. EVS diselenggarakan oleh European Values Foundation yang menyediakan pelayanan survey untuk mengetahui bagaimana nilai dan perubahan sosial dialami oleh penduduk Eropa dan terjadi di Eropa. Data ini dapat ditemukan di link berikut: . Sedangkan untuk data Eropa yang lain dapat ditemukan pada European Social Survey, . Hampir sama dengan EVS, ESS mengumpulkan data mengenai perubahan sosial yang terjadi di Eropa. Survey ini sudah berlangsung sejak 2002 dan diselenggarakan setiap dua tahun, dan untuk wave terakhir dilakukan pada tanggal 2014. Surevy ini juga menyediakan data yang terintegrasi, yang sudah digabungkan antara data di tingkat individu dan data kontekstual yang memungkinkan untuk melakukan analisis multilevel dan pemodelan kompleks dalam ilmu sosial. Di tingkat Asia, tersedia data Asibarometer  mengkaji nilai politik dan demokrasi diantara warga Asia.</p>
+<p>###Sumber data nasional</p>
+<p>Sumber data di tingkat nasional yang dianalisis antara lain sumber data yang berasal dari pemerintah dan survey di tingkat nasional. Di UK data untuk data sekunder tersimpan di ESDS atau UKDA . Di US data sekunder tersimpan ICPSR University of Michigan . Sumber data tersebut tidak hanya menyediakan data yang terkait dengan data di tingkat nasional, namun juga menyediakan data internasional. UKDA, sebagai contoh, menyediakan data yang memuat survey di Jepang, yang termasuk survey tingkat nasional. Selain itu UKDA menyediakan perangkat analisis online yang dapat digunakan secara langsung oleh peneliti walaupun untuk analisis deskriptif yang sederhana. ICPSR juga menyediakan fasilitas serupa, dan dapat digunakan oleh peneliti sosial sekaligus juga menyediakan perangkat untuk pembelajaran yang baik untuk mengenalkan data yang terkait dengan isu kependudukan dan perubahan sosial. Perangkat pembelajaran yang menggunakan data sekunder dapat ditemukan dalam laman ini . Laman tersebut dapat membantu mahasiswa lebih paham pada data dan penggunaannya untuk pembelajaran ilmu sosial. Dengan menggunakan pendekatan ini, dosen dan mahasiswa dapat lebih memahami tidak secara teoretis namun juga secara empiris mengenai fenomena sosial yang ada baik secara nasional maupun secara internasional.</p>
+<p>Sumber data di tingkat nasional dapat dijumpai pada survey terkenal di beberapa negara maju, antara lain di Amerika mereka mengadakan General Social Survey (GSS), di Inggris dikenal dengan Understanding Society, dan di Jerman mereka menyelenggarakan German Social Economic Panel (GSOEP). Semua survey tersebut memberikan data yang relatif lengkap yang mencakup isu sosial, ekonomi dan politik yang krusial dan mencakup pemahaman antar waktu.</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="mengapa-data-sekunder.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="memahami-codebook.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "serif",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["Andase.pdf", "Andase.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

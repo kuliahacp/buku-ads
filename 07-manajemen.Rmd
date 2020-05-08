@@ -1,0 +1,7 @@
+# Manajemen Data
+
+## Menggunakan R
+
+## tidy R
+### filter
+### select

@@ -1,0 +1,62 @@
+# Mengapa Data Sekunder
+
+## Keuntungan data sekunder
+
+Beberapa keuntungan yang dapat diperoleh ketika kita menggunakan data sekunder antara lain: murah dan efisien. Penelitian yang dilakukan dapat segera diketahui hasilnya tanpa melakukan penelitian di lapangan. Dengan demikian, peneliti dapat menulis hasil penelitian dan seghera diterbitkan pada jurnal bereputasi. 
+
+Keuntungan yang paling nampak adalah ekonomi. Data sekunder sudah dikumpulkan oleh orang lain atau pihak lain, sehingga tidak diperlukan biaya yang dibutuhkan untuk mengumpulkan data. Selain itu, waktu yang dibutuhkan untuk mengumpulkan data juga dapat diminimalisasi. 
+
+Keuntungan kedua adalah luasnya jangkauan data yang disediakan oleh data sekunder. Keluasan ini dapat dilihat dari jumlah pertanyaan yang banyak dan responden yang banyak., sehingga keterwakilan untuk populasi menjadi lebih meyakinkan.
+
+Keuntungan ketiga, proses pengumpulan dalam data sekunder dilakukan oleh orang-orang yang ahli dalam bidang survey dan juga dalam isu substantif sehingga kuesioner yang ada dapat digunakan untuk melakukan analisis dengan pemodelan yang kompleks. 
+
+Keuntungan keempat, data sekunder dapat digunakan untuk bahan mengajar di tingkat sarjana dan pascasarjana karena data yang tersedia sudah ada dan tidak memerlukan sumber daya yang mahal. Sautter (2014) menunjukkkan bagaimana data sekunder dapat digunakan secara efektif untuk membantu pengajaran Metode Penelitian dan Statistika Sosial pada mata kuliah ilmu sosial. Sebelumnya, Howery (2006) sudah melakukan inisiasi untuk mengintegrasikan data sekunder pada pembelajaran substantif dalam bidang sosiologi. 
+
+##Kelemahan data sekunder
+
+Kerugian ketika menggunakan data sekunder antara lain: tidak sesuai dengan pertanyaan penelitian dan jangkauan topik penelitian terlalu luas. 
+
+Kelemahan yang utama dari penelitian data sekunder adalah tidak bisa menjawab pertanyaan penelitian yang spesifik karena survey yang didesain mungkin tidak secara spesifik terkait dengan pertanyaan penelitian yang diajukan.
+
+Kelemahan kedua yaitu ketidakterlibatan penelitian pada proses pengumpulan data mengakibatkan peneliti tidak memiliki pemahaman yang baik dan komprehensif terhadap data yang ada. 
+
+
+## Penerapan data sekunder pada ilmu sosial
+
+Sosiologi
+
+Data sekunder dalam bidang studi sosiologi dapat dijumpai pada data understanding society (), European Values Study (). Data yang ada dalam kajian ini termasuuk data yang terkait dengan sosiologi kesehatan atau epidemiologi sosial. Robert Sampson, Harvard University yang melakukan penelitian dengan data sekudner yang emngambil wilayah kota Chicago, dengan proyek penelitian besar yang dinamai Neighborhood Effects. Dalam penliyian ini Sampson berhasil menyimpulkan tentang bagaimana mekanisme spasial terjadi dan bagaimana ikmuwan sosial dapat menjawab pertanyaan penelitian menegani fenomena tersebut. 
+
+Ekonomi
+
+Data sekunder dalam bidang ekonomi dapat dilihat pada data IFLS, dimana banyak dijumpai variabel yang terkait dengan kajian ekonomi termasuk pemngambilan keputusan, tingkat kesejahteraan ekonomi masyarakat. Angus Deaton, peraih Nobel Ekonomi 2016 merupakan pengguna data sekunder. Paper yang ditulis kebanyakan adalah data sekunder yang didekati dengan pemodelan yang tepat untuk menjawab pertanyaan penting dalam bidang ekonomi. Para ekonom studi pembangunan memiliki minat yang tinggi terhadap data sekunder, misalnya di Indonesia mereka banhyak menggunakan data SUSENAS yang diselenggarakan oleh BPS. 
+
+Geografi
+
+Data sekunder yang mencakup data geografi memasukkan unsur spasial atau data yang terkait dengan kondisi geografis dan lingkungan yang ada dalam masyarakat. Contoh data ini dapat dilihat dalam PHDCN hyang mengkaji kesejahteraan sosial masyarakat kota Chicago. Geograf di UK dan US banyak melakukan penlitian menggunakan data sekunder. Sebagai contoh JAmes Cheshire mencpba memetakan fenomena sosial di London dan UK, menggunakan data sekunder atau bahkan dengan teknologi data besar. 
+
+Kajian demografi termasuk kajian geografi dan merupakan salah satu bidang dalam ilmu sosial yang menyediakan data yang banyak di tingkat nasional dan internasional. Data ini biasanya disediakan oleh badan resmi statistika di masing-masing negara. Kajian interdisiplin yang menggunakan perspektif spasial ,banyak menggunakan informasi geografis untuk menjelaskan bagaimana peran lokasi dapat menjelaskan fenomena sosial. Data-data spasial, saat ini banyak ditemukan pada banyak survey dan juga badan resmi statistika di masing-masing negara. Sebagai contoh Office National for Statistics (ONS) \url{https://www.ons.gov.uk/} yang menyediakan informasi spasial yang detail hingga di tingkat tetangga atau disebut dengan LSOA (Lower Super Output Area). Informasi ini sangat bermanfaat untuk menjelaskan bagaimana lokasi rumah tertentu dapat memrediksikan kondisi sosial yang dialami orang tersebut. 
+
+Psikologi
+
+Data sekunder dalam bidang psikologi dimasukkan dalam survey antara lain IFLS yang memasukkan tingkat depresi dan kondisi emosi individu. Psikologi merupakan bidang ilmu yang paling terakhir dalam menggunakan data sekunder. Hal ini wajar karena tradisi penelitian dalam psikologi kebanyakan menggunakan data primer yang sesuai dengan tema atau topik yang dipilih peneliti. Nsmun demikian, lima tahun terakhir ini ilmuwan psikologi mulai banyak menggunakan data sekunder, mengingat mulai banyaknya data yang tersedia yang menyediakan pertanyaan psikologis pada survey tingkat nasional maupun internasional, misalnya mengenai kesejahteraan subjektif dan emosi warga. 
+
+Ilmu politik
+
+Data sekunder dalam bidang politik dapat dijumpai pada EVS dan ESS yang mencakup bagaimana nilai sebuah masyarakat dan bagaimana sikap politik dan partisipasi politik warga. Pada laman ICPSR University of Michigan, kita dapat menjumpai banyak survey yang terkait dengan kajian politik, terutama bagaimana respon dan sikap warga pada kondisi politik pada negara mereka. 
+
+Ilmu politik juga banyak mengoptimalkan data yang berasal dari polling pada saat pemilihan umum atau pemilihan kepala daerah. Dalam survey sosial, ilmu politik memberi kontribusi yang besar terutama dalam melihat bagaimana masyarakat memiliki pandangan politik tertentu. 
+
+Pendidikan
+
+Data sekunder dalam bidang pendidikan yang sangat populer adalah PISA yang dikeluarkan oleh OECD dan TIMSS. Dua survey ini sering dijadikan barometer untuk kemajuan sebuah negara dibandingkan negara lain di seluruh dunia. Selain itu, soal-soal yang digunakan di PISA atau TIMSS banyak digunakan untuk standar ujian pada siswa sekolah di sejumlah negara di dunia. PISA dapat diunduh secara gratis melalui link berikut ini \url{https://www.oecd.org/pisa/pisaproducts/}, sedangkan TIMSS dapat diunduh melalui link berikut \url{http://timssandpirls.bc.edu/}.
+
+Kebijakan Publik
+
+Data sekunder dalam kebijakan publik sangat populer dilakukan. Kajian kebijakan publik merupakan salah bidang yang paling diuntungkan penggunaan data sekunder dalam penelitian, karena jangkauan penelitian dengan data sekunder ini bersifat luas dan generalisasinya dapat digunakan untuk membantu pembuatan kebijakan publik. 
+
+Bidang kebijakan publik merupakan salah satu bidang yang paling banyak memperoleh keuntungan penggunaan data sekunder untuk pembuatan kebijakan yang efektif. Dalam kajian pengambilan kebijakan, kajian ini sering disebut dengan pembuatan kebijakan berbasis data atau bukti yang akurat atu evidence-based decision making. Sebuah stretegi yang bersandara dengan data dan kejadian, yang pada tahap selanjutnya dibuat menjadi sebuah kebijakan yang dapat diterima masyarakat dan pihak terkait. 
+
+
+
+

@@ -1,0 +1,84 @@
+# Proses dan Identifikasi Data Sekunder
+
+##Proses
+
+Proses melakukan penelitian data sekunder dapat dilakukan seperti penelitian pada umumnya, namun salah satu proses yang dapat diubah adalah tentang bagaimana mengidemtifikasi data yang sesuai dengan penelitian kita. Pada penelitian data sekunder, kita dapat melakukan penelitian dengan dimulai mencari data yang ada dalam riset tersebut, atau bahkan mencari jurnal yang menggunakan data tersebut. Kita dapat menemukan penelitian, sebagai contoh, pada laman web berikut ini: \url{http://www.rand.org/labor/FLS/IFLS/papers.html}. Laman tersebut memberikan contoh tentang bagaimana penelitian data sekunder dilakukan dengan menggunakan data IFLS. Dengan mencermati penelitian tersebut, kita dapat mempelajari bagaimana data sekunder ditemukan, dianalisis dan ditulis sebagai makalah ilmiah yang diterbitkan dalam jurnal bereputasi. 
+
+Proses penelitian dapat dilakukan dengan proses berikut ini Boslaugh (2007) : 
+
+1. Mendefinisikan pertanyaan penelitian. Seperti proses penelitian standar, pertanyaan penelitian data sekunder perlu dimulai dengan pertanyaan penelitian yang jelas. 
+
+2. Menentukan target responden. Target responden perlu dijelaskan sejak awal. 
+
+3. Menentukan variabel lain yang akan dimasukkan dalam analisis. 
+
+4. Menentukan jenis data yang paling cocok dengan pertanyaan penelitian. 
+
+5. Membuat daftar data yang mencantumkan informasi yang terkait dengan pertanyaan penelitian.
+
+6. Uji variabel yang kita gunakan. 
+
+
+Penulis ingin berbagi pengalaman melakukan penelitian sekunder mulai dari awal sampai pada akhir pengiriman naskah publikasi.
+
+Menentukan topik penelitian 
+
+Topik penelitian harus ditentukan sejak awal agar penelitian kita lebih sejalan dengan apa yang kita inginkan. Menentukan topik merupakan salah satu tahapan paling menantang bagi ilmuwan sosial terutama bagi pemula, karena banyak sekali topik yang menarik namun demikian peneliti pemula merasakan kesulitan untuk melakukan fokus pada satu topik secara intens.
+
+Melakukan pencarian pada jurnal yang terkait 
+
+Langkah selanjtnya adalah mencari jurnal yang terkait dengan topik kita. Pencarian jurnal sekarang dapat dilakukan dengan mudah. Banyak website yang bisa menyediakan jurnal secara gratis yang langsung disediakan oleh penulisnya, misalnya pada laman ini: \url{https://www.researchgate.net/home}. Pada laman ini kita bisa melihat paper yang ditulis oleh penulis yang memiliki minat sama dengan kita. Pendek kata, laman ini merupakan media jaringan sosial akademik. 
+
+Membaca dengan seksama jurnal yang terpilih
+
+Langkah selanjutnya adalah membaca artikel dengan seksama dan detail, sehingga kita bisa mengetahui alur logika yang digunakan oleh penulis tersebut. Proses membaca ini dilakukan dengan mengkritisi paper yang sedang kita baca dengan cara menemukan kelemahan argumen yang diberikan dalam paper tersebut. 
+
+Melakukan replikasi penelitian
+
+Replikasi penelitian dilakukan untuk mengetahui lebih dalam bagaiaman penelitian terdahulu dilakukan dan pada waktu yang sama memberikan rasa pencapaian dari peneliti yang bahwa yang bersangkutan bisa menyelesaikan penelitian serupa. Penulis melakukan replikasi penelitian yang dilakukan oleh Paxton (2007) mengenai association membership and trust dan saat itu penulis meminta data secara langsung dari Paxton, dan Paxton juga memberi data tersebut. Proses selanjutnya adalah melakukan analisis untuk data yang tersedia dan hasilnya hampir sama apa yang dilakukan Paxton. 
+
+Mencari data set yang relevan 
+
+Data set yang relevan sangat perlu dilakukan sesuai dengan topik kita dengan membaca kuesioner dan mencermati codebook yang ada, sehingga peneliti dapat mengidentifikasi masing-masing item atau pertanyaan yang relevan. Saat itu, penulis mencermati dua data set yaitu European Social Survey dan European Values Study. Kedua data set tersebut menyediakan informasi mengani nilai dan perubahan sosial yang terjadi di Eropa. Setelah mencermati kedua dat set tersebut, akhirnya dipilih salah satu dat set yaitu EVS, karena yang menyediakan pertanyaan sesuai dengan topik yang sudah dipilih. 
+
+Melakukan penelitian dengan topik terpilih
+
+Setelah menemukan topik, langkah selanjutnya adalah melakukan penelitian formal dengan data yang sudah kita ambil. Penelitian ini dilakukan seperti penelitian dengan data primer yaitu dengan menentukan pertanyaan penelitian yang akan dijawab dalam penelitian dan melakukan pengujian menggunakan analisis data yang relevan untuk menjawab pertanyaan penelitian. 
+
+Mencari jurnal yang terkait dengan strategi penelitian.
+
+Mencari jurnal merupakan salah satu langkah paling menentukan dalam penelitian data sekunder. Fungsi pemilihan jurnal ini adalah: memberi tuntunan pada proses penelitian yang akan dilakukan. 
+
+Melakukan analisis data
+
+Memilih perangkat lunak
+
+Proses pemilihan lunak sangat disesuaikan dengan kebutuhan penelitian dan penjelasan lebih detail ada pada Bab 5. Pemilihan ini didasarkan pada ketersediaan sumber daya yang ada, termasuk dana yang tersedia. Perangkat lunak saat tersedia secara luas dan mudah untuk diperoleh, namun diperlukan waktu yang cukup untuk menguasai perangkat yang tersedia tersebut. 
+
+Mencari jurnal yang relevan dengan teknik analisis yang sudah dipilih
+
+Pada saat data set dan jurnal teoretis sudah ditemukan, maka selanjutnya mencari jurnal yang menggunakan teknik analisis hyang sesuai dengan penelitian kita. Saat itu, peneliti mencari jurnal yang menggunakan penelitian multilevel model untuk menjawab pertanyaan tentang apakah variasi di level yang lebih tinggi dapat menjelaskan fenomena pada level-1. 
+
+Mempublikasikan pada jurnal relevan
+
+Saat yang paling menggembirakan adalah ketika penelitian kita sudah jadi dan siap untuk dipublikasikan pada jurnal yang relevan. Pada saat itu, saya memilih dua jurnal untuk dipublikasikan yaitu Social Indicators Reserach dan Jornal of Happiness Studies. Artikel saya ditolak di JOHS, akhirnya saya kirim lagi ke SIR. Akhirnya SIR menerima artikel saya dan siap dipublikasikan. Menerima surat penerimaan di jurnal yang kita merupakan pengalaman yang yang tidak terlupakan, karena saat itulah saya merasa karir akademik saya dimulai secara internasional. 
+
+
+##Sumber data sekunder
+
+Data sekunder dapat diperoleh baik dari sumber di Indonesia dan luar negeri. Di Indonesia kita dapat menemukan data sekunder dari BPS dan survey yang dilakukan oleh lembaga survey atau lembaga penelitian terkemuka di Indonesia. Salah satu survey yang menyediakan banyak pertanyaan dan wahana untuk melakukan analisis data sekunder adalah Survey Aspek Kehidupan Rumah Tangga Indonesia (SAKERTI) atau dikenal secara internasional sebagai Indonesia Family Life Survey (IFLS) \url{http://www.rand.org/labor/FLS/IFLS.html}. 
+
+###Sumber data internasional
+
+Sumber data internasional bisa diperoleh dari PBB, Bank Dunia, lembaga survey internasional , seperti Gallup Internasional, World Values Survey. Di UK, dapat penyedia layanan data dapat ditemukan pada web ini: UKDS \url{https://www.ukdataservice.ac.uk/}. Di Jerman, layanan data di tingkat Eropa dan dunia dapat ditemukan pada link berikut: GESIS \url{http://www.gesis.org/en/services/}. Sedangan di Amerika kita dapat menemukannya di ICPSR University of Michigan \url{http://www.icpsr.umich.edu/icpsrweb/}. Ketiga pengelola data internasional tersebut, dapat memberikan layanan data, dan analisis data yang kompleks untuk kepentingan pembuatan kebijakan publik. Bahkan pusat peneydia data tersebut membrikan kesempatan untuk melakukan penelitian di institusi mereka dan bisa mengakses data yang dimiliki dan perangkat lunak yang dibutuhkan untuk menganalisis. 
+
+###Sumber data regional
+
+Contoh sumber data regional EVS, EuroBarometer, AsiaBarometer. Data tersebut tersimpan di arsip data antara lain pada link berikut ini. EVS diselenggarakan oleh European Values Foundation yang menyediakan pelayanan survey untuk mengetahui bagaimana nilai dan perubahan sosial dialami oleh penduduk Eropa dan terjadi di Eropa. Data ini dapat ditemukan di link berikut: \url{http://www.europeanvaluesstudy.eu/page/surveys.html}. Sedangkan untuk data Eropa yang lain dapat ditemukan pada European Social Survey, \url{http://www.europeansocialsurvey.org/data/round-index.html}. Hampir sama dengan EVS, ESS mengumpulkan data mengenai perubahan sosial yang terjadi di Eropa. Survey ini sudah berlangsung sejak 2002 dan diselenggarakan setiap dua tahun, dan untuk wave terakhir dilakukan pada tanggal 2014. Surevy ini juga menyediakan data yang terintegrasi, yang sudah digabungkan antara data di tingkat individu dan data kontekstual yang memungkinkan untuk melakukan analisis multilevel dan pemodelan kompleks dalam ilmu sosial. Di tingkat Asia, tersedia data Asibarometer \url{http://www.asianbarometer.org/} mengkaji nilai politik dan demokrasi diantara warga Asia. 
+
+###Sumber data nasional
+
+Sumber data di tingkat nasional yang dianalisis antara lain sumber data yang berasal dari pemerintah dan survey di tingkat nasional. Di UK data untuk data sekunder tersimpan di ESDS atau UKDA \url{http://www.data-archive.ac.uk/}. Di US data sekunder tersimpan ICPSR University of Michigan \url{http://www.icpsr.umich.edu/icpsrweb/}. Sumber data tersebut tidak hanya menyediakan data yang terkait dengan data di tingkat nasional, namun juga menyediakan data internasional. UKDA, sebagai contoh, menyediakan data yang memuat survey di Jepang, yang termasuk survey tingkat nasional. Selain itu UKDA menyediakan perangkat analisis online yang dapat digunakan secara langsung oleh peneliti walaupun untuk analisis deskriptif yang sederhana. ICPSR juga menyediakan fasilitas serupa, dan dapat digunakan oleh peneliti sosial sekaligus juga menyediakan perangkat untuk pembelajaran yang baik untuk mengenalkan data yang terkait dengan isu kependudukan dan perubahan sosial. Perangkat pembelajaran yang menggunakan data sekunder dapat ditemukan dalam laman ini \url{https://www.icpsr.umich.edu/icpsrweb/content/instructors/teacher-resources.html}. Laman tersebut dapat membantu mahasiswa lebih paham pada data dan penggunaannya untuk pembelajaran ilmu sosial. Dengan menggunakan pendekatan ini, dosen dan mahasiswa dapat lebih memahami tidak secara teoretis namun juga secara empiris mengenai fenomena sosial yang ada baik secara nasional maupun secara internasional. 
+
+Sumber data di tingkat nasional dapat dijumpai pada survey terkenal di beberapa negara maju, antara lain di Amerika mereka mengadakan General Social Survey (GSS), di Inggris dikenal dengan Understanding Society, dan di Jerman mereka menyelenggarakan German Social Economic Panel (GSOEP). Semua survey tersebut memberikan data yang relatif lengkap yang mencakup isu sosial, ekonomi dan politik yang krusial dan mencakup pemahaman antar waktu. 
+

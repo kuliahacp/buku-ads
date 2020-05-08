@@ -1,0 +1,28 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+# Memahami R
+
+## Mengapa R 
+
+Salah satu keunggulan menggunakan R adalah menyediakan fitur yang lengkap untuk analisis data dan visualisasi data, sedangkan dapat diperoleh secara gratis.
+
+### Manajemen Data
+
+Manajemen data merupakan proses paling emnantang dalam analisis data pada umumnya dan analisis data sekunder pada umumnya. Salah satu perngkat lunak yang bisa digunakan untuk melakukan manajemen data adalah STATA, biasanya digunakan oleh ahli ekonometri dan kesehatan masyarakat. Namun demikian, STATA merupakan perangkat lunak berbayar, sehingga penulis mnyarakan untuk menggunakan R dengan paket dplyr yang mempunyai kemampuan yang baik untuk melakukan manajemen data denngan baik dan dapat dilakukan dengan relatif mudah. 
+
+Manajemen data merupakan proses paling menentukan dalam proses analisis data. Jika penelit tidak melakukan manjemen data dengan baik, maka kemungkinan yang akan terjadi adalah kesalahan dalam melakukan analisis data atau estimasi. Misalnya, jika satu variabel seharusnya dihitung secara terbalik, namun tidak dibalik oleh peneliti, maka hasilnya dapat menyesatkan.
+
+Manajemen data dengan R akan lebih mudah jika menggunanakan paket dplyr. 
+
+
+
+```{}
+knitr::include_graphics(rep("rmda.png"))
+\begin{figure}
+\includegraphics{rmda}
+\end{figure}
+```
+

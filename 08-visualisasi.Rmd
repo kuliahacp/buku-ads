@@ -1,0 +1,47 @@
+# Visualisasi Data
+
+Visualisasi merupakan salah satu hal yang paling menarik dalam analisis data sekunder karena dapat memberi informasi yang padat namun mewakili apa yang ingin disampaikan penneliti. Salah satu rekomendasi paling baik untuk visualisasi data adalah R dengan paket ggplot2 dan lattice. ggplot2 merupakan implementasasi dari grammar of graphics dan emmungkinkan peneliti utnuk melakukan visualisasi data dengan pentahapan satu layer demi layer hingga menghasilkan visualisasi data yang elegan. 
+
+Salah satu paket yang paling banyak digunakan untuk visualisasi data dengan R adalah ggplot2 yang dibuat oleh Hadley Wickham. Pembahasan dan contoh mengenai paket ini dapat ditemukan dalam laman berikut ini: \url{http://docs.ggplot2.org/current/}. Laman ini memuat bagaimana sebuah visualisasi dihasilkan melalui kode R. 
+
+
+### Pendahuluan
+
+Memahami data merupakan salah satu kemampuan yang dibutuhkan untuk memahami statistika secara keseluruhan. Salah satu keunggulan yang dimiliki R adalah kemampuan untuk membuat grafik dan visualisasi data. R menyediakan visualisasi data dengan tingkat resolusi yang tinggi. Bab ini akan memberi penjelasan mengenai bentuk visualisasi data yang perlu digunakan dalam penelitian sosial. Selain itu, bab ini memberi contoh dan kode bagaiaman membuat plot data yang sedang diuji untuk memberi gambaran yang lebih menyeluruh mengenai data yang sedang diperiksa.
+
+Bab ini membahas dan menjelaskan berbagai macam plot atau visualisasi data yang diperlukan dalam statistika, mulai dari bar plot, histogram, kernel density, box plot, violin plot, pie chart, scatter plot dan pembuatan peta. Pada masing-masing bentuk plot, akan dijelaskan pengertian plot, fungsi plot dan bagaimana mengimplementasikannya menggunakan R, serta penjelasan mengenai hasil plot yang diperoleh.
+
+Dalam pemrograman R, ada beberapa package yang diperlukan untuk melakukan plot data dan visualisasi data dengan elegan adalah ggplot2, yang bisa digunakan dengan menuliskan kode berikut ini.
+
+
+
+
+
+```{r}
+library(gapminder)
+library(ggplot2)
+gapminder
+```
+Katakanlah kita ingin merencanakan Harapan Hidup terhadap PDB per kapita untuk semua tahun negara dalam data. Kami akan melakukan ini dengan membuat objek yang memiliki beberapa informasi yang diperlukan di dalamnya, dan membangunnya dari sana. Pertama, kita harus memberi tahu ggplot()fungsi apa data yang kita gunakan.
+
+
+```{r}
+p <- ggplot(data = gapminder)
+```
+
+Pada titik ini ggplot tahu data kami, tetapi tidak tahu apa pemetaannya . Artinya, Anda tidak perlu secara eksplisit menyebutkan argumen yang Anda berikan ke fungsi, selama Anda memberikannya dalam urutan yang diharapkan, yaitu, urutan yang tercantum di halaman bantuan untuk fungsi tersebut.Kode ini akan tetap berfungsi jika kami menghapusdan.Dalam buku ini, saya menyebutkan semua argumen untuk kejelasan.kita perlu memberi tahu variabel mana dalam data yang harus diwakili oleh elemen visual mana dalam plot. Kami juga tidak tahu plot seperti apa yang kami inginkan. Di ggplot, pemetaan ditentukan menggunakan fungsi. Seperti ini:data = mapping =aes()
+
+```{r}
+p <- ggplot(data = gapminder,
+            mapping = aes(x = gdpPercap,
+                          y = lifeExp))
+```
+
+
+```{r}
+p + geom_point()
+```
+
+
+
+

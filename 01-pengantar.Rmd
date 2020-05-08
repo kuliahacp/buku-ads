@@ -1,0 +1,14 @@
+# Lanskap penelitian data sekunder 
+
+
+## Pengantar
+
+Ada dua kondisi yang memotivasi buku ini: revolusi komputer dan ketersediaan data. Revolusi komputer memungkinkan penliti untuk melakukan komputasi secara modern dan pemodelan pada data yang menyediakan wawasan untuk pengembangan ilmu dan pembuatan kebijakan. Kedua, ketersediaan data merupakan peluang emas bagi para peneliti dan ilmuwan untuk melakukan kajian yang intensif mengenai isu sosial dan yang terkait. Buku ini dibuat untuk menambah referensi mengenai analisis data sekunder. Buku ini merupakan buku teori dan panduan mengenai analisis data sekunder yang bertujuan untuk memberi wawasan dan keterampilan untuk melakukan penelitian menggunakan data sekunder. Buku ini akan berisi tentang definisi, teori dan praktik untuk melakukan penelitian data sekunder. 
+
+Masalah sosial terjadi di penjuru dunia. Dunia saat ini banyak menyediakan data. Dua fakta tersebut merupakan fakta yang tidak terelakkan dan terkait satu dan yang lain. Masalah sosial dapat direkam melalui data dan data dapat membantu untuk menjadi solusi pemecahan masalah sosial. Hal inilah hyang menjadi motivasi awal penulisan buku ini. 
+
+British Academy (2012) menyatakan adanya krisis literasi data dan statistika di kalangan ilmu sosial dan humaniora. Padahal kenyataan yang ada adalah adanya fenomena big data dan fenomena masyarakat digital hyang memproduksi data, atau dalam bahasa Ritzer (2010) disebut masyarakat prosumer, produsen sekaligus konsumer data. 
+
+Gambaran yang diberikan oleh British Academy hampir sama apa yang dialami apa yang terjadi di Indonesia, dimana minat dan keterampilan dalam keterampilan kuantitatif di kalangan ilmuwan sosial di Indonesia. Tradisi kuantitatif yang kuat ada dalam bidang psikologi dan ekonomi. Namun demikian, fakta mengenai big data dan perubahan sosial yang sangat cepat merupakan salah satu motivasi yang kuat untuk mendalami metode kuantitatif dalam ilmu sosial. 
+
+Penggunaan data sekunder pada penelitian saat ini, tidak terlepas dari sebuah gerkana intelektual yang disebut dengan artimetika politis, yaitu sebuah penggunaan angka untuk mempengaruhi kebijakan pemerintah. Penggunaan angka tersebut dapat secara akurat membantu pemerintah untuk mengambil keputusan yang akan diambil untuk kesejahteraan masyarakat (Smith, 2008). 
